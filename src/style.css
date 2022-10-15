@@ -20,14 +20,14 @@ body {
 }
 
 .head h1 {
-  font-family: AnonymousPro;
+  font-family: 'AnonymousPro', Courier, monospace;
   font-size: 50px;
   margin-top: 30px;
   margin-bottom: 0px;
 }
 
 .head nav ul {
-  font-family: RobotoMono;
+  font-family: 'RobotoMono', Courier, monospace;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
@@ -38,4 +38,33 @@ body {
 
 .head nav ul li {
   padding: 10px;
+}
+
+.content {
+  background-color: #f5f4d2;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme {
+  margin: 10%;
+  width: 80%;
+  border: 5px solid #2a2e2d;
+}
+
+.aboutme h1 {
+  color: #f5f4d2;
+  background-color: #2a2e2d;
+  font-family: 'AnonymousPro', Courier, monospace;
+  font-size: 30px;
+  margin: 0;
+  padding-left: 5px;
+  border: 1px solid #2a2e2d;
+}
+
+.aboutme p {
+  color: #2a2e2d;
+  font-family: 'RobotoMono', Courier, monospace;
+  padding: 5px;
+  margin: 0;
 }
