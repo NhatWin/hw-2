@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "AnonymousPro";
+  src: url(fonts/AnonymousPro-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "RobotoMono";
+  src: url(fonts/RobotoMono-VariableFont_wght.ttf) format("truetype");
+}
