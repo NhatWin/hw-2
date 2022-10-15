@@ -6,3 +6,36 @@
   font-family: "RobotoMono";
   src: url(fonts/RobotoMono-VariableFont_wght.ttf) format("truetype");
 }
+
+body {
+  background-color: #f5f4d2;
+}
+
+.head {
+  background-color: #2a2e2d;
+  color: #f5f4d2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.head h1 {
+  font-family: AnonymousPro;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.head nav ul {
+  font-family: RobotoMono;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.head nav ul li {
+  padding: 10px;
+}
