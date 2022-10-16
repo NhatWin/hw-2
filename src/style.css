@@ -70,6 +70,12 @@ body {
   margin: 0;
 }
 
+.aboutme img {
+  margin: 5px;
+  float: right;
+  border: 5px solid #2a2e2d;
+}
+
 .mywork {
   margin: 10%;
   margin-top: 5%;
