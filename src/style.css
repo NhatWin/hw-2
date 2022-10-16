@@ -42,6 +42,7 @@ body {
 
 a {
   color: #f5f4d2;
+  text-decoration: none;
 }
 
 .content {
@@ -353,4 +354,21 @@ a {
 
 .github:hover {
   filter: invert(62%) sepia(61%) saturate(6167%) hue-rotate(326deg) brightness(109%) contrast(120%);
+}
+
+.footer {
+  color: #f5f4d2;
+  background-color: #2a2e2d;
+  text-align: center;
+  font-family: 'RobotoMono', Courier, monospace;
+  padding: 10px;
+  margin-top: 5%;
+}
+
+.footer h2 {
+  font-size: 15px;
+}
+
+.footer p {
+  font-size: 10px;
 }
