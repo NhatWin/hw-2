@@ -79,6 +79,7 @@ body {
 .mywork {
   margin: 10%;
   margin-top: 5%;
+  margin-bottom: 5%;
   border: 5px solid #2a2e2d;
 }
 
@@ -200,7 +201,7 @@ body {
 
 .work4::before {
   content: "";
-  background-image: url(../src/assets/000512310033.jpg);
+  background-image: url(../src/assets/000512320035.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -219,11 +220,14 @@ body {
 }
 
 .work1:hover {
- border: 5px solid #fe525b;
  scale: 104%;
 }
 
-.work1:hover h3 {
+.work1:active {
+  border: 5px solid #fe525b;
+ }
+
+.work1:active h3 {
   background-color: #fe525b;
   border: 5px solid #fe525b;
 }
@@ -233,11 +237,14 @@ body {
 }
 
 .work2:hover {
-  border: 5px solid #fe525b;
   scale: 104%;
  }
 
- .work2:hover h3 {
+ .work2:active {
+  border: 5px solid #fe525b;
+ }
+
+ .work2:active h3 {
    background-color: #fe525b;
    border: 5px solid #fe525b;
  }
@@ -247,11 +254,14 @@ body {
 }
 
  .work3:hover {
-  border: 5px solid #fe525b;
   scale: 104%;
  }
 
- .work3:hover h3 {
+ .work3:active {
+  border: 5px solid #fe525b;
+ }
+
+ .work3:active h3 {
    background-color: #fe525b;
    border: 5px solid #fe525b;
  }
@@ -261,15 +271,86 @@ body {
 }
 
  .work4:hover {
-  border: 5px solid #fe525b;
   scale: 104%;
  }
 
- .work4:hover h3 {
+ .work4:active {
+  border: 5px solid #fe525b;
+ }
+
+ .work4:active h3 {
    background-color: #fe525b;
    border: 5px solid #fe525b;
  }
 
  .work4:hover::before {
   opacity: 1.0;
+}
+
+.contact {
+  margin: 10%;
+  margin-bottom: 5%;
+  width: 80%;
+  border: 5px solid #2a2e2d;
+  margin-top: 5%;
+}
+
+.contact h2 {
+  color: #f5f4d2;
+  background-color: #2a2e2d;
+  font-family: 'AnonymousPro', Courier, monospace;
+  font-size: 30px;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.contact h2 {
+  padding: 5px;
+}
+
+.contactcol {
+  color: #2a2e2d;
+  font-family: 'RobotoMono', Courier, monospace;
+  padding: 5px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactcol h3 {
+  margin: 5px;
+}
+
+.contact img {
+  filter: invert(14%) sepia(12%) saturate(247%) hue-rotate(114deg) brightness(97%) contrast(91%);
+}
+
+.contactrow1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+
+.contactrow2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+
+.contactrow2 img {
+  margin: 9px;
+}
+
+.contactrow2 h3 {
+  margin: 0;
+}
+
+.youtube:hover {
+  filter: invert(62%) sepia(61%) saturate(6167%) hue-rotate(326deg) brightness(109%) contrast(120%);
+}
+
+.github:hover {
+  filter: invert(62%) sepia(61%) saturate(6167%) hue-rotate(326deg) brightness(109%) contrast(120%);
 }
