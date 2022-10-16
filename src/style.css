@@ -93,6 +93,7 @@ body {
 .myworkrow {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .work1 {
@@ -100,7 +101,7 @@ body {
   width: 50%;
   height: 50%;
   border: 5px solid #2a2e2d;
-  margin: 3px;
+  margin: 4px;
   position: relative;
 }
 
@@ -121,6 +122,7 @@ body {
   font-family: 'RobotoMono', Courier, monospace;
   inline-size: min-content;
   position: relative;
+  border: 5px solid #2a2e2d;
 }
 
 .work2 {
@@ -128,7 +130,7 @@ body {
   width: 50%;
   height: 50%;
   border: 5px solid #2a2e2d;
-  margin: 3px;
+  margin: 4px;
   position: relative;
 }
 
@@ -149,6 +151,7 @@ body {
   font-family: 'RobotoMono', Courier, monospace;
   inline-size: min-content;
   position: relative;
+  border: 5px solid #2a2e2d;
 }
 
 .work3 {
@@ -156,7 +159,7 @@ body {
   width: 50%;
   height: 50%;
   border: 5px solid #2a2e2d;
-  margin: 3px;
+  margin: 4px;
   position: relative;
 }
 
@@ -177,6 +180,7 @@ body {
   font-family: 'RobotoMono', Courier, monospace;
   inline-size: min-content;
   position: relative;
+  border: 5px solid #2a2e2d;
 }
 
 .work4 {
@@ -184,7 +188,7 @@ body {
   width: 50%;
   height: 50%;
   border: 5px solid #2a2e2d;
-  margin: 3px;
+  margin: 4px;
   position: relative;
 }
 
@@ -205,5 +209,61 @@ body {
   font-family: 'RobotoMono', Courier, monospace;
   inline-size: min-content;
   position: relative;
+  border: 5px solid #2a2e2d;
 }
 
+.work1:hover {
+ border: 5px solid #fe525b;
+ scale: 104%;
+}
+
+.work1:hover h3 {
+  background-color: #fe525b;
+  border: 5px solid #fe525b;
+}
+
+.work1:hover::before {
+  opacity: 1.0;
+}
+
+.work2:hover {
+  border: 5px solid #fe525b;
+  scale: 104%;
+ }
+
+ .work2:hover h3 {
+   background-color: #fe525b;
+   border: 5px solid #fe525b;
+ }
+
+ .work2:hover::before {
+  opacity: 1.0;
+}
+
+ .work3:hover {
+  border: 5px solid #fe525b;
+  scale: 104%;
+ }
+
+ .work3:hover h3 {
+   background-color: #fe525b;
+   border: 5px solid #fe525b;
+ }
+
+ .work3:hover::before {
+  opacity: 1.0;
+}
+
+ .work4:hover {
+  border: 5px solid #fe525b;
+  scale: 104%;
+ }
+
+ .work4:hover h3 {
+   background-color: #fe525b;
+   border: 5px solid #fe525b;
+ }
+
+ .work4:hover::before {
+  opacity: 1.0;
+}
