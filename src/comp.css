@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "AnonymousPro";
+  src: url(fonts/AnonymousPro-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "RobotoMono";
+  src: url(fonts/RobotoMono-VariableFont_wght.ttf) format("truetype");
+}
+
+body {
+  background-color: #f5f4d2;
+}
+
+.content {
+  margin: 10%;
+  margin-bottom: 5%;
+  width: 80%;
+  border: 5px solid #2a2e2d;
+}
+
+.content h1 {
+  color: #f5f4d2;
+  background-color: #2a2e2d;
+  font-family: 'AnonymousPro', Courier, monospace;
+  font-size: 50px;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.content ul {
+  font-family: 'RobotoMono', Courier, monospace;
+}
