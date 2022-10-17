@@ -11,7 +11,7 @@ body {
   background-color: #f5f4d2;
 }
 
-.head {
+.header {
   background-color: #2a2e2d;
   color: #f5f4d2;
   display: flex;
@@ -19,14 +19,14 @@ body {
   text-align: center;
 }
 
-.head h1 {
+.header h1 {
   font-family: 'AnonymousPro', Courier, monospace;
   font-size: 50px;
   margin-top: 30px;
   margin-bottom: 0px;
 }
 
-.head nav ul {
+.header nav ul {
   font-family: 'RobotoMono', Courier, monospace;
   display: flex;
   justify-content: space-around;
@@ -36,7 +36,7 @@ body {
   margin-bottom: 5px;
 }
 
-.head nav ul li {
+.header nav ul li {
   padding: 10px;
 }
 
@@ -48,7 +48,6 @@ a {
 .content {
   background-color: #f5f4d2;
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -365,21 +364,21 @@ a {
   filter: invert(14%) sepia(12%) saturate(247%) hue-rotate(114deg) brightness(97%) contrast(91%);
 }
 
-.contactrow1 {
+.contactrowmain {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 0;
 }
 
-.contactrow2 {
+.contactrow {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 0;
 }
 
-.contactrow2 img {
+.contactrow img {
   margin: 9px;
 }
 
@@ -406,4 +405,61 @@ a {
 
 .footer p {
   font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .header h1 {
+    margin-left: 10px;
+  }
+
+  .aboutme h2, .mywork h2, .contact h2 {
+    font-size: 50px;
+  }
+
+  .aboutme p {
+    font-size: 30px;
+  }
+
+  .aboutme img {
+    width: 190px;
+  }
+
+  .myworkrow {
+    flex-direction: column;
+  }
+
+  .work1, .work2, .work3, .work4 {
+    width: 95%;
+  }
+
+  .contact .contactcol {
+    font-size: 12px;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .contact .contactrow {
+    gap: 10px;
+  }
+
+  .contact .contactrowmain {
+    justify-content: space-evenly;
+  }
+
+  .contact {
+    align-items: center;
+  }
+
+  .aboutme, .mywork, .contact {
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 }
