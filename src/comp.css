@@ -31,11 +31,11 @@ a {
   margin-top: 5%;
 }
 
-.content h1 {
+.content h2 {
   color: #f5f4d2;
   background-color: #2a2e2d;
   font-family: 'AnonymousPro', Courier, monospace;
-  font-size: 50px;
+  font-size: 30px;
   margin: 0;
   padding-left: 5px;
 }
@@ -46,4 +46,30 @@ a {
 
 h1:hover {
   color: #fe525b;
+}
+
+@media screen and (min-width: 768px) {
+  .content h2{
+    font-size: 50px;
+  }
+}
+
+.footer {
+  color: #f5f4d2;
+  background-color: #2a2e2d;
+  text-align: center;
+  font-family: 'RobotoMono', Courier, monospace;
+  padding: 10px;
+  margin-top: 5%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer h2 {
+  font-size: 15px;
+}
+
+.footer p {
+  font-size: 10px;
 }
