@@ -114,6 +114,7 @@ a {
   border: 5px solid #2a2e2d;
   margin: 4px;
   position: relative;
+  transition: 0.5s ease;
 }
 
 .link1 {
@@ -134,6 +135,7 @@ a {
   bottom: 0px;
   left: 0px;
   opacity: 0.5;
+  transition: 0.5s ease;
 }
 
 .work1 h3 {
@@ -151,6 +153,7 @@ a {
   border: 5px solid #2a2e2d;
   margin: 4px;
   position: relative;
+  transition: 0.5s ease;
 }
 
 .link2 {
@@ -172,6 +175,7 @@ a {
   bottom: 0px;
   left: 0px;
   opacity: 0.5;
+  transition: 0.5s ease;
 }
 
 .work2 h3 {
@@ -189,6 +193,7 @@ a {
   border: 5px solid #2a2e2d;
   margin: 4px;
   position: relative;
+  transition: 0.5s ease;
 }
 
 .link3 {
@@ -210,6 +215,7 @@ a {
   bottom: 0px;
   left: 0px;
   opacity: 0.5;
+  transition: 0.5s ease;
 }
 
 .work3 h3 {
@@ -227,6 +233,7 @@ a {
   border: 5px solid #2a2e2d;
   margin: 4px;
   position: relative;
+  transition: 0.5s ease;
 }
 
 .link4 {
@@ -248,6 +255,7 @@ a {
   bottom: 0px;
   left: 0px;
   opacity: 0.5;
+  transition: 0.5s ease;
 }
 
 .work4 h3 {
@@ -260,7 +268,6 @@ a {
 
 .work1:hover {
  scale: 108%;
- transition: 0.5s ease;
 }
 
 .work1:active {
@@ -274,12 +281,10 @@ a {
 
 .work1:hover::before {
   opacity: 1.0;
-  transition: 0.5s ease;
 }
 
 .work2:hover {
   scale: 108%;
-  transition: 0.5s ease;
  }
 
  .work2:active {
@@ -293,12 +298,10 @@ a {
 
  .work2:hover::before {
   opacity: 1.0;
-  transition: 0.5s ease;
 }
 
  .work3:hover {
   scale: 108%;
-  transition: 0.5s ease;
  }
 
  .work3:active {
@@ -312,12 +315,10 @@ a {
 
  .work3:hover::before {
   opacity: 1.0;
-  transition: 0.5s ease;
 }
 
  .work4:hover {
   scale: 108%;
-  transition: 0.5s ease;
  }
 
  .work4:active {
@@ -331,7 +332,6 @@ a {
 
  .work4:hover::before {
   opacity: 1.0;
-  transition: 0.5s ease;
 }
 
 .contact {

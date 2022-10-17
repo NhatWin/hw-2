@@ -42,9 +42,9 @@ body {
   margin: 5px;
   width: 97%;
   border: 5px solid #2a2e2d;
+  transition: 0.5s ease;
 }
 
 .content img:hover {
   scale: 130%;
-  transition: 0.5s ease;
 }
