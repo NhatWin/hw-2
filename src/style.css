@@ -463,3 +463,18 @@ a {
     margin-bottom: 5%;
   }
 }
+
+@media screen and (min-width: 1365px) {
+  .contact .contactcol {
+    font-size: 18px;
+    gap: 40px;
+  }
+
+  .contact .contactrow {
+    gap: 40px;
+  }
+
+  .contact .contactrow img {
+    width: 40px;
+  }
+}
