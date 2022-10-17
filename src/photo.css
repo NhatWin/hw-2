@@ -11,6 +11,18 @@ body {
   background-color: #f5f4d2;
 }
 
+.header {
+  color: #f5f4d2;
+  background-color: #2a2e2d;
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: #f5f4d2;
+  text-decoration: none;
+}
+
 .content {
   margin: 10%;
   margin-bottom: 5%;
@@ -18,7 +30,7 @@ body {
   border: 5px solid #2a2e2d;
 }
 
-.content h1 {
+.content h2 {
   color: #f5f4d2;
   background-color: #2a2e2d;
   font-family: 'AnonymousPro', Courier, monospace;
@@ -47,4 +59,8 @@ body {
 
 .content img:hover {
   scale: 130%;
+}
+
+h1:hover {
+  color: #fe525b;
 }
