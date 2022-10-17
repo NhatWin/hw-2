@@ -412,6 +412,7 @@ a {
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
+    margin-bottom: 2.5%;
   }
 
   .header h1 {
@@ -457,21 +458,21 @@ a {
   }
 
   .aboutme, .mywork, .contact {
-    width: 60%;
+    width: 50%;
     margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
   }
 }
 
 @media screen and (min-width: 1365px) {
   .contact .contactcol {
     font-size: 18px;
-    gap: 40px;
+    gap: 50px;
   }
 
   .contact .contactrow {
-    gap: 40px;
+    gap: 50px;
   }
 
   .contact .contactrow img {
