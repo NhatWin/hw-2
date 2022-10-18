@@ -2,7 +2,7 @@
 
 ## Description
 
-This webpage is a mockup portfolio of work as a coder. The site displays a person's projects and coding experence along with contact information and a bio of themselves.
+This webpage is a mockup portfolio of work as a coder. The site displays a person's projects and coding experence along with contact information and a bio of themselves. The site has features that allow for use on mobile. screens with a minimum width of 425 are compatable with the site and the site will conform to the screen.
 ## Installation
 
 link to the cite: https://nhatwin.github.io/hw-2/
