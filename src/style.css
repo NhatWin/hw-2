@@ -96,21 +96,13 @@ a {
   padding-left: 5px;
 }
 
-.myworkcol {
-  display: flex;
-  flex-direction: column;
-}
-
-.myworkrow {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.myworkbox {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .work1, .work2, .work3, .work4 {
   color: #f5f4d2;
-  width: 50%;
-  height: 50%;
   border: 5px solid #2a2e2d;
   margin: 4px;
   position: relative;
@@ -313,12 +305,12 @@ a {
     width: 190px;
   }
 
-  .myworkrow {
-    flex-direction: column;
+  .myworkbox {
+    grid-template-columns: 98%;
   }
 
   .work1, .work2, .work3, .work4 {
-    width: 95%;
+    width: 100%;
   }
 
   .contact .contactcol {
