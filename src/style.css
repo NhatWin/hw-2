@@ -220,28 +220,21 @@ a {
   padding: 5px;
 }
 
-.contactcol {
+.contactbox {
   color: #2a2e2d;
   font-family: 'RobotoMono', Courier, monospace;
-  padding: 5px;
   font-size: 14px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
 }
 
-.contactcol h3 {
-  margin: 5px;
+.contactbox ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 .contact img {
   filter: invert(14%) sepia(12%) saturate(247%) hue-rotate(114deg) brightness(97%) contrast(91%);
-}
-
-.contactrowmain {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 0;
 }
 
 .contactrow {
@@ -249,6 +242,7 @@ a {
   flex-direction: row;
   align-items: center;
   margin: 0;
+  grid-area: link;
 }
 
 .contactrow img {
@@ -321,21 +315,13 @@ a {
     width: 100%;
   }
 
-  .contact .contactcol {
-    font-size: 12px;
-    flex-direction: row;
-    gap: 10px;
+  .contactbox ul li {
+    display: inline;
+    font-size: 20px;
+    margin: 5px;
   }
 
-  .contact .contactrow {
-    gap: 10px;
-  }
-
-  .contact .contactrowmain {
-    justify-content: space-evenly;
-  }
-
-  .content {
+  .contactrow img {
     justify-content: space-around;
   }
 
