@@ -1,7 +1,24 @@
-# HTML-CSS Practice
+ Portfolio Mockup
 
-This includes webhint, stylelint, and prettier.
+## Description
 
-VS Code settings are included to streamline the process. Stylelint extension and prettier are there too for real time feedback. Because of the settings, Prettier will auto-format whenever you move out of the file.
+This webpage is a mockup portfolio of work as a coder. The site displays a person's projects and coding experence along with contact information and a bio of themselves.
+## Installation
 
-Run `npm install` to install the dependencies. Then, run `npm start` to start the server.
+link to the cite: https://nhatwin.github.io/hw-2/
+
+## Usage
+
+This can be used display a coders work experience and kowledge of topics. It gives the user a organized space to keep there body of work. Each section is made to help prospective employers evaluote a persons skill level and work experence.The site also allows for employers to contact the user and links to profiles the user also has. Beyond that, the site was made to practice CSS and HTML during the construction of the site.
+
+## Screenshot
+
+![screemshot of website](./src/assets/Screenshot.png)
+
+## Credits
+
+N/A
+
+## License
+
+Please refer to the LICENSE in the repo.
