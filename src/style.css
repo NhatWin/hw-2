@@ -109,6 +109,8 @@ a {
   transition: 0.5s ease;
 }
 
+/* used this for link workaround https://stackoverflow.com/questions/796087/make-a-div-into-a-link */
+
 .link1, .link2, .link3, .link4 {
   position: absolute;
   width: 100%;
@@ -125,6 +127,8 @@ a {
   position: relative;
   border: 5px solid #2a2e2d;
 }
+
+/* used this for opacity background image https://coder-coder.com/background-image-opacity/ */
 
 .work1::before {
   content: "";
@@ -250,6 +254,8 @@ a {
 .contactrow img {
   margin: 9px;
 }
+
+/* website used to get proper filter colors https://codepen.io/sosuke/pen/Pjoqqp */
 
 .youtube:hover {
   filter: invert(62%) sepia(61%) saturate(6167%) hue-rotate(326deg) brightness(109%) contrast(120%);
